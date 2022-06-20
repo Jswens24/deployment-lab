@@ -1,3 +1,129 @@
-h1 {
-    color: blue;
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid red !important; */
+}
+
+body {
+    background-color: #218380;
+}
+
+nav {
+    font-family: 'Sora', sans-serif;
+    font-size: 70px;
+    display: flex;
+    background-color: #FBB13C;
+    width: 100vw;
+    height: 10vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.warning-icon {
+    height: 125px;
+}
+
+.main-body {
+    margin-top: 130px;
+}
+
+#helmet-pics-and-stats-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.helmet-pic {
+    height: 150px;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+
+#helmet-pics-container {
+    background-color: #8F2D56;
+    padding: 15px;
+    width: 40vw;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+#cool-helmet-h1 {
+    align-self: center;
+    font-size: 35px;
+    font-family: 'Sora', sans-serif;
+}
+
+#pics-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#helmet-stats-container {
+    background-color: #8F2D56;
+    width: 40vw;
+    border-radius: 25px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+#stats-heading {
+    align-self: center;
+    font-family: 'Sora', sans-serif;
+    font-size: 35px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Sora', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+li {
+    padding-top: 25px;
+}
+
+#fixed-img-container {
+    background-image: url("http://farm7.static.flickr.com/6151/6172653604_447108c25a.jpg");
+    height: 120vh;
+    width: 100vw;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: .5;
+}
+
+#new-helmets-link {
+    margin-bottom: 140px;
+    background-color: #8F2D56;
+    color: white;
+    padding: 35px;
+    border-radius: 51px;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: 'Sora', sans-serif;
+    transition: 1s;
+}
+
+#new-helmets-link:hover {
+    background-color: #FBB13C;
+    box-shadow: 20px 15px 25px lightgray;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+p {
+    margin-bottom: 25px;
+    color: white;
 }
